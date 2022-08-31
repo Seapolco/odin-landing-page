@@ -14,7 +14,13 @@ body {
     display: flex;
     justify-content: center;
     margin-left: 30px;
-    width: 400px;
+    margin-top: 30px;
+    
+}
+
+.doomImage {
+    width: auto;
+    height:100px;
 }
 
 
@@ -29,7 +35,7 @@ body {
 ul {
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
     list-style-type: none;
 }
@@ -64,6 +70,14 @@ ul {
     display: flex;
     width: 400px;
     flex-wrap: wrap;
+}
+
+.aButton {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    border: solid white;
 }
 
 .imageContainer {
@@ -110,8 +124,8 @@ ul {
     display: flex;
     width: auto;
     max-height: 100px;
-    border: solid blue;
-    border-radius: 20%;
+    border: solid red;
+    border-radius: 25px;
 }
 
 .imageSubtext {
@@ -121,7 +135,7 @@ ul {
 .third {
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 650px;
     background-color: #E5E7EB;
 }
 
@@ -130,12 +144,12 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     color: #1F2937;
-    font-size: 30px;
+    font-size: 25px;
     font-style:italic;
     font-weight: lighter;
     padding: 20px;
     width: 600px;
-    height: 300px;
+    height: 400px;
 
 }
 
@@ -153,25 +167,43 @@ ul {
 
 .action {
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #3882F6;
-    width: 400px;
+    background-color:red;
+    width: 600px;
     height: 100px;
-    border: solid #3882F6;
-    border-radius: 7%;
+    border: solid red;
+    border-radius: 25px;
 }
 
 .callToAction {
     display:flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+    padding:0px;
+    /* align-items: center; */
+}
+
+.actionH4 {
+    display:flex;
+    margin: 0;
+    color: white;
+}
+
+.actionP {
+    color: white
 }
 
 .signUp {
+    text-decoration: none;
+    color: white;
     display:flex;
     align-items: center;
     height:30px;
+    border-radius: 10px;
+    border: solid white;
+    background-color: red;
 }
 
 .footer {
