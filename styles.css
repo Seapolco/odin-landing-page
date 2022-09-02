@@ -54,6 +54,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 40%;
+    height: auto;
 }
 
 .awesomeHeader {
@@ -84,13 +86,14 @@ ul {
     border: solid #F9FAF8;
     display: flex;
     margin-left: 50px;
-    max-height: 300px;
+    /* max-height: 300px; */
 }
 
 .image {
     display: flex;
-    width: auto;
-    max-height: 300px;
+    width: 100%;
+    height:auto;
+    /* max-height: 300px; */
 }
 
 .second {
